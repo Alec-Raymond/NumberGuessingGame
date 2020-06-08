@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <h2>Number Guessing Game</h2>
+    <h4>Guess a number between an inclusive range that you set yourself!</h4>
+    <div>
+      <h3>Lowest Number</h3>
+      <input id="lowestNumberInput" type="number" />
+    </div>
+    <div>
+      <h3>Highest Number</h3>
+      <input id="highestNumberInput" type="number" />
+    </div>
+    <div>
+      <h3>Guess</h3>
+      <input id="guessNumberInput" type="number" />
+      <button onclick="handlers.guessButton()">Are you correct?</button>
+    </div>
+    <div>
+      <h3></h3>
+    </div>
+    <div id="outputLine"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
